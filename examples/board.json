@@ -1,0 +1,11 @@
+{
+  "width": 50,
+  "height": 30,
+  "keepouts": [{"x":20,"y":10,"width":5,"height":5,"side":"top"}],
+  "nets": [
+    {"name":"GND","class":"power","required":true,"points":[{"x":5,"y":5,"side":"bottom","diameter":1.2,"reference":"J1","pad":"2"}]},
+    {"name":"+3V3","class":"power","critical":true,"points":[{"x":10,"y":5,"side":"bottom","diameter":1.2,"reference":"U1","pad":"8"}]},
+    {"name":"SPI_CLK","class":"digital","points":[{"x":15,"y":8,"side":"bottom","diameter":1.0,"reference":"U1","pad":"4"}]},
+    {"name":"RESET","class":"control","required":true,"points":[{"x":22,"y":12,"side":"top","diameter":1.0},{"x":28,"y":12,"side":"bottom","diameter":1.0}]}
+  ]
+}

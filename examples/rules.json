@@ -1,0 +1,1 @@
+{"minDiameter":0.9,"minPitch":2.54,"edgeClearance":1.5,"sides":["bottom"],"requiredClasses":["power"],"requiredPatterns":["^RESET$"]}
